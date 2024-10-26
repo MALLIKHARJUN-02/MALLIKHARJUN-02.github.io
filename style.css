@@ -41,3 +41,23 @@ body{
     box-shadow: 0 0 15px rgba(0, 0, 0, 1);
     border-radius: 10px;
 }
+
+
+@media (min-width: 768px) {
+    /* Layout for larger screens */
+    .navitem {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .WelcomeNote {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 100px;
+    }
+
+    .selfIntroduction {
+        max-width: none;
+        padding: 15px;
+    }
+}
