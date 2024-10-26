@@ -1,0 +1,43 @@
+body{
+    background-color: antiquewhite;
+}
+
+.navBar{
+    backface-visibility: hidden;
+    background-color: aquamarine;
+    border-radius: 100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    display: flex;
+    text-decoration: none;
+    padding: auto;
+    justify-content: space-around;
+}
+
+.navitem{
+    color: black;
+    padding: 20px;
+    align-content: center;
+    text-decoration: solid;
+    font-size: 28px;
+}
+
+.navitem:hover{
+    color: brown;
+}
+
+.WelcomeNote{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.selfIntroduction{
+    text-align: justify;
+    padding: 15px;
+}
+.image{
+    padding: 10px;
+    backface-visibility: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
