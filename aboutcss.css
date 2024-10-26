@@ -1,0 +1,81 @@
+body{
+    background-color: antiquewhite;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    backface-visibility: hidden;
+    background-color: aquamarine;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    border-radius: 100px;
+}
+
+.navitem{
+    padding: 20px;
+    font-size: 28px;
+    text-decoration: solid;
+}
+
+.navitem:hover{
+    color: brown;
+}
+
+.internalnavbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.intnavitem{
+    color: black;
+    font-size: 25px;
+}
+.intnavitem:hover{
+    color: brown;
+    
+}
+.resume{
+    color: black;
+    text-decoration: solid;
+}
+
+a{
+    color: black;
+    text-decoration: solid;
+    font-size: 20px;
+}
+
+.resumehead:hover{
+    color: brown;
+}
+
+.about{
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.Academic{
+    padding: 20px;
+}
+
+table,th,td{
+    border: 2px solid black;
+    color: black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th,td{
+    padding: 20px;
+    font-size: 20px;
+}
+
+ul{
+    text-align: justify;
+    caption-side: top;
+    padding: auto;
+    font-size: 20px;
+}
+
