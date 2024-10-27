@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: space-around;
     backface-visibility: hidden;
-    background-color: aquamarine;
+    background-color: antiquewhite;
     box-shadow: 0 0 15px rgba(0, 0, 0, 1);
     border-radius: 100px;
 }
@@ -37,7 +37,7 @@ body{
 }
 .resume{
     color: black;
-    text-decoration: solid;
+    text-decoration: underline;
 }
 
 a{
@@ -79,3 +79,10 @@ ul{
     font-size: 20px;
 }
 
+.internships{
+    padding: 20px;
+}
+
+.Certificate{
+    text-decoration: underline;
+}

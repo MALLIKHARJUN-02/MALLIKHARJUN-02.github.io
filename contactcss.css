@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    backface-visibility: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    background-color:antiquewhite;
+    border-radius: 100px;
+}
+
+.navitem{
+    padding: 20px;
+    font-size: 28px;
+    text-decoration: solid;
+    color: black;
+}
+
+.navitem:hover{
+    color: brown;
+}
+
+.contact{
+    padding: 20px;
+}
+
+.address{
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
+}

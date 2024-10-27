@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 100px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+.navitem{
+    padding: 20px;
+    font-size: 28px;
+    text-decoration: solid;
+    color: black;
+}
+
+li{
+    font-size: 25px;
+}
+
+.description{
+    font-size: 20px;
+}
