@@ -2,13 +2,14 @@ body{
     background-color: antiquewhite;
 }
 
-.navbar{
+nav{
     display: flex;
     justify-content: space-around;
     backface-visibility: hidden;
     box-shadow: 0 0 15px rgba(0, 0, 0, 1);
     background-color:antiquewhite;
     border-radius: 100px;
+    align-items: center;
 }
 
 .navitem{
@@ -16,6 +17,10 @@ body{
     font-size: 28px;
     text-decoration: solid;
     color: black;
+}
+#contact{
+    color: crimson;
+    font-size: 50px;
 }
 
 .navitem:hover{
@@ -30,4 +35,25 @@ body{
     display: flex;
     padding: 60px;
     justify-content: space-around;
+}
+
+
+@media (min-width: 768px) {
+    .navitem {
+        font-size: 28px;
+        padding: 20px;
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navitem {
+        font-size: 20px;
+        padding: 8px;
+    }
 }

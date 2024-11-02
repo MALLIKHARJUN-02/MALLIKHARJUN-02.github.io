@@ -2,21 +2,26 @@ body{
     background-color: antiquewhite;
 }
 
-.navBar{
+nav{
     display: flex;
     justify-content: space-around;
     backface-visibility: hidden;
     background-color: antiquewhite;
     box-shadow: 0 0 15px rgba(0, 0, 0, 1);
     border-radius: 100px;
+    align-items: center;
 }
 
 .navitem{
-    padding: 20px;
-    font-size: 28px;
+    padding: 10px;
+    font-size: 20px;
     text-decoration: solid;
 }
 
+#about{
+    color: crimson;
+    font-size: 50px;
+}
 .navitem:hover{
     color: brown;
 }
@@ -85,4 +90,29 @@ ul{
 
 .Certificate{
     text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .navitem {
+        font-size: 28px;
+        padding: 20px;
+    }
+    .internalnavbar {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navitem {
+        font-size: 20px;
+        padding: 8px;
+    }
 }
