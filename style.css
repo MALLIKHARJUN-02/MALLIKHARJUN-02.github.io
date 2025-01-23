@@ -303,5 +303,12 @@ main{
     .imagecontainer ol{
         list-style-type: none;
     }
+
+    .mkImage img{
+        width: 500px;
+        height: 500px;
+        padding: 10px;
+        border-radius: 20px;
+    }
     
 }
